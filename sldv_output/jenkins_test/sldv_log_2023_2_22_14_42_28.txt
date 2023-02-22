@@ -1,0 +1,175 @@
+
+22-Feb-2023 14:42:20
+Checking compatibility for test generation: model 'jenkins_test'
+Compiling model...done
+Building model representation...done
+
+22-Feb-2023 14:42:21
+'jenkins_test' is compatible for test generation with Simulink Design Verifier.
+
+
+Generating tests using model representation from 22-Feb-2023 14:42:21...
+
+SATISFIED
+Hysteresis 1/Relay1
+input >= on threshold false
+Analysis Time = 00:00:02
+
+SATISFIED
+NOT1
+Logic: input port 1 true
+Analysis Time = 00:00:02
+
+SATISFIED
+Hysteresis 1/Relay1
+input <= off threshold true
+Analysis Time = 00:00:02
+
+SATISFIED
+Hysteresis 1/Relay1
+input >= on threshold true
+Analysis Time = 00:00:02
+
+SATISFIED
+NOT1
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+Hysteresis 2/Relay1
+input <= off threshold true
+Analysis Time = 00:00:02
+
+SATISFIED
+AND3
+Logic: input port 1 true
+Analysis Time = 00:00:02
+
+SATISFIED
+Hysteresis 2/Relay1
+input >= on threshold true
+Analysis Time = 00:00:02
+
+SATISFIED
+AND3
+Logic: input port 2 false
+Analysis Time = 00:00:02
+
+SATISFIED
+AND3
+Logic: input port 2 true
+Analysis Time = 00:00:02
+
+SATISFIED
+Switch
+logical trigger input true (output is from 1st input port)
+Analysis Time = 00:00:02
+
+SATISFIED
+NOT2
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+Switch
+logical trigger input false (output is from 3rd input port)
+Analysis Time = 00:00:02
+
+SATISFIED
+NOT2
+Logic: input port 1 true
+Analysis Time = 00:00:02
+
+SATISFIED
+AND3
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+Hysteresis 2/Relay1
+input >= on threshold false
+Analysis Time = 00:00:02
+
+SATISFIED
+OR1
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+OR1
+Logic: input port 2 true
+Analysis Time = 00:00:02
+
+SATISFIED
+AND4
+Logic: input port 2 true
+Analysis Time = 00:00:02
+
+SATISFIED
+AND4
+Logic: input port 1 true
+Analysis Time = 00:00:02
+
+SATISFIED
+OR1
+Logic: input port 2 false
+Analysis Time = 00:00:02
+
+SATISFIED
+AND1
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+AND4
+Logic: input port 1 false
+Analysis Time = 00:00:02
+
+SATISFIED
+AND4
+Logic: input port 2 false
+Analysis Time = 00:00:02
+
+SATISFIED
+OR1
+Logic: input port 1 true
+Analysis Time = 00:00:02
+
+UNSATISFIABLE
+Hysteresis 1/Relay1
+input <= off threshold false
+Analysis Time = 00:00:03
+
+UNSATISFIABLE
+Hysteresis 2/Relay1
+input <= off threshold false
+Analysis Time = 00:00:03
+
+SATISFIED
+AND1
+Logic: input port 1 true
+Analysis Time = 00:00:06
+
+SATISFIED
+AND1
+Logic: input port 2 false
+Analysis Time = 00:00:06
+
+SATISFIED
+AND1
+Logic: input port 2 true
+Analysis Time = 00:00:06
+
+
+22-Feb-2023 14:42:28
+
+Completed normally.
+
+Generating output files:
+
+22-Feb-2023 14:42:28
+Results generation completed.
+
+    Data file:
+    C:\Users\IHADNQHN\MATLAB\Projects\testjenkins-Simunlink\sldv_output\jenkins_test\jenkins_test_sldvdata.mat
+
